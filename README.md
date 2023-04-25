@@ -6,9 +6,9 @@
 **Dataset** : CIFAR10  
 **Model** : CNN  
 
-The app contains a slider for adjusting the number of convolutional layers. The accuracy of train and test, number of parameters, training loss, and training time are displayed.  
+Details about each model, as well as comparision between all the models can we observered using the side bar. Each model here indicate model with a specific number of convolutional layers.  
 
-The model details are shown in the table.  
+The app contains a slider for adjusting the number of convolutional layers. The accuracy of train and test, number of parameters, training loss, and training time are displayed for the selected model. The model details are shown in the table.  
 
 Plots for accuracy, loss, and times are plotted for all the models for comparision.  
 
