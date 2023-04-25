@@ -25,7 +25,7 @@ test_accuracy=load_saved("test_accuracy.csv")
 train_accuracy=load_saved("train_accuracy.csv")
 
 
-n_layers = st.slider('Number of Convolutional Layers:', 1, 5, 1)
+n_layers = st.slider('Number of Convolutional Layers :', 1, 5, 1)
 
 model=load_model(f'model{n_layers}.h5')
 st.write('Test Accuracy:', test_accuracy[n_layers-1])
