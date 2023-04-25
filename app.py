@@ -72,13 +72,13 @@ def each_model():
 
     layer_info=layer_info[1:]
     df = pd.DataFrame(layer_info)
-    st.header("Model")
+    st.header("Model Details")
     st.write(df)
 
 
 
 def compare_plots():
-    st.title("Plots")
+    st.title("Plots comparing the models")
 
     fig, axs = plt.subplots(2, 2, figsize=(10, 8))
     k=[1,2,3,4,5]
