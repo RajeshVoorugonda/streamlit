@@ -15,4 +15,4 @@ Plots for accuracy, loss, and times are plotted for all the models for comparisi
 > The models are pre-saved since they take time to load each time the slider is adjusted. The code for saving the models is in `models.py`  
   
   
-**Link for deployed version**: https://rajeshvoorugonda-streamlit-app-p6yo6q.streamlit.app/
+**Link for deployed version**: https://rajesh-manish-cnn-layers-ml3.streamlit.app/
