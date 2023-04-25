@@ -7,7 +7,7 @@ from keras.models import load_model
 import os
 
 # Install packages listed in requirements.txt
-os.system('pip install -r requirements.txt')
+#os.system('pip install -r requirements.txt')
 
 def load_saved(file_name):
     df = pd.read_csv(f'{file_name}')
