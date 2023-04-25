@@ -2,7 +2,7 @@ import streamlit as st
 import io
 from contextlib import redirect_stdout
 import pandas as pd
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 from keras.models import load_model
 
 def load_saved(file_name):
