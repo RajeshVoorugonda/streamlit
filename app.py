@@ -4,6 +4,10 @@ from contextlib import redirect_stdout
 import pandas as pd
 from matplotlib import pyplot as plt
 from keras.models import load_model
+import subprocess
+
+# Install packages listed in requirements.txt
+subprocess.check_call(["python", "-m", "pip", "install", "-r", "requirements.txt"])
 
 def load_saved(file_name):
     df = pd.read_csv(f'{file_name}')
